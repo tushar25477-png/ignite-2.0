@@ -20,6 +20,5 @@ int main() {
         else
             cout << "DELTA"<<endl;
     }
-
     return 0;
 }
