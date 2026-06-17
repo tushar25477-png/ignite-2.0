@@ -1,100 +1,153 @@
-**IGNITE 2025 – Week 2 Assignment**
+# 🌐 Web Development – Week 2 Assignment
 
-**Objective**
+Welcome to **Week 2** of the **IGNITE'26 Web Development Domain**! 🚀
 
-Learn Git, GitHub, HTML, and CSS while following proper version control practices.
+This week's assignment focuses on learning the fundamentals of:
 
----
+* Git
+* GitHub
+* HTML
+* CSS
+* Version Control Workflow
 
-**Task 1**: Create Your First GitHub Repository
-
-Create a GitHub repository named:
-
-ignite-week2-yourname
-
-Initialize it with a README.md file.
-
-The README should contain:
-
-- Your Name
-- College
-- Branch / Year
-- Why you joined IGNITE
-  
-Submission Instructiion
-
--Add a README.md inside your submission folder containing the link to your repository.
+By completing this assignment, you'll gain hands-on experience with GitHub repositories, meaningful commits, and building a simple webpage using HTML and CSS.
 
 ---
 
-**Task 2**: Build a Simple Profile Page
+# 🎯 Learning Objectives
 
-Create a webpage using only HTML and CSS.
+* Understand Git and GitHub fundamentals
+* Practice version control using meaningful commits
+* Build a simple webpage using HTML and CSS
+* Improve project documentation skills
+* Follow a professional development workflow
 
-Your page must contain:
+---
 
-- Profile Picture
-- Name
-- About Me Section
-- Skills Section
-- Contact Information
-- Attractive Styling
+# 📋 Assignment Tasks
 
-Suggested structure:
+## Task 1: Build a Simple Profile Page
 
-project-folder/
+Create a personal profile webpage using **only HTML and CSS**.
+
+### Your webpage must include:
+
+* Profile Picture
+* Name
+* About Me Section
+* Skills Section
+* Contact Information
+* Attractive Styling
+
+### Suggested Project Structure
+
+```text
+profile-page/
 ├── index.html
 ├── style.css
 └── README.md
+```
+
+You may add additional files and folders if needed.
 
 ---
 
-**Task 3**: Follow Proper Git Workflow
+## Task 2: Follow Proper Git Workflow
 
-Do NOT upload everything in a single commit.
+Do **NOT** upload everything in a single commit.
 
-Make at least 4 meaningful commits.
+Make at least **4 meaningful commits** while building your project.
 
-Examples:
+### Example Commit Messages
 
-- Create project structure
-- Add profile section
-- Style skills section
-- Update README
+```bash
+git commit -m "Create project structure"
+git commit -m "Add profile section"
+git commit -m "Style skills section"
+git commit -m "Update README"
+```
 
-Avoid commit messages like:
+### Avoid Commit Messages Like
 
-- final
-- update
-- changes
+```text
+final
+update
+changes
+test
+```
+
+Your commit history should clearly show the progress of your work.
 
 ---
 
-**Task 4**: GitHub Reflection
+## Task 3: GitHub Reflection
 
-Add the following answers in your README.md:
+Create a `README.md` file inside your project and answer the following questions:
 
 1. What is Git?
 2. What is GitHub?
-3. Difference between Git and GitHub?
+3. What is the difference between Git and GitHub?
 4. Why are commits important?
 5. Which Git command did you use the most and why?
 
 ---
 
-Submission Guidelines
+# 📁 Submission
 
-1. Fork this repository.
-2. Create a folder named:
+Follow the submission process mentioned in the main **Web Development Submission Guide**.
 
+### Additional Requirements
+
+* Create a folder named:
+
+```text
 Name_RollNumber
+```
 
 Example:
 
+```text
 Vaishnavi_Panday_230123
+```
 
-3. Add all assignment files inside the folder.
-4. Push your changes.
-5. Create a Pull Request.
+* Place all assignment files inside your submission folder.
+* Create a Pull Request.
+* Attach screenshots in the Pull Request description.
 
-Deadline: June 18 , 2026 
+---
+
+# 📸 Screenshots Required
+
+Attach the following screenshots in your Pull Request description:
+
+* 🖥️ Desktop View
+* 📱 Mobile View (if responsive)
+
+⚠️ Pull Requests without screenshots may be considered incomplete.
+
+---
+
+# ✅ Evaluation Criteria
+
+Your submission will be evaluated on:
+
+* HTML Structure
+* CSS Styling
+* Code Readability
+* Git Commit History
+* README Documentation
+* Overall Presentation
+
+---
+
+# 📅 Deadline
+
+**June 18, 2026**
+
+---
+
+# 🚀 Happy Coding!
+
+Build, commit, push, and keep learning.
+
+**IGNITE'26 – Web Development Domain** 🌐💻✨
