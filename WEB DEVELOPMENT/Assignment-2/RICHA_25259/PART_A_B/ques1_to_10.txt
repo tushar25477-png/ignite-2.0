@@ -1,0 +1,106 @@
+ANSWER 1:
+Undefined
+uncaught reference error
+
+var can be accessed before its declaration line whereas let cannot be.
+
+ANSWER2: 
+105 (concatenation)
+5 (internally "10" is converted to 10)
+11 (true=1)
+true ("5" is converted to 5 because == ignores datatype)
+false (=== does check type as well)
+
+ANSWER 3:
+var x = 10; // it can be redeclared and reassigned
+let y = 20; //it cannot be redeclared but can be reassigned
+const z = 30; //it can neither be redeclared nor reassigned
+
+// swapping
+let a=2, b=3;
+a=a+b;
+b=a-b;
+a=a-b;
+
+//check even odd
+
+let n=8;
+if(n%2==0){
+    console.log("even");
+}
+else{
+    console.log("odd");
+}
+
+ANSWER 4:
+=== strictly checks for value as well as datatype
+== checks for value and ignores type
+//example 1
+console.log(("6")==6); //true
+//example 2
+console.log(("6")===6); //false
+
+ANSWER 5:
+1
+2
+4
+
+//3 is not printed because continue skips one iteration and 5 is not printed because break 
+immediately exits the loop. 
+
+
+ANSWER 6:
+
+for loop:-
+   -> entry controlled loop
+   -> initialisation, condition and updation can be in same line while declaring
+while loop:-
+    -> entry controlled loop
+    -> only condition can be while declaring or in prototype
+do while loop:-
+    -> exit controlled loop
+    -> executes atleast ones even if condition is false.
+
+
+ANSWER 7:
+ let str="Hello World";
+ str=str.toLowerCase();
+
+ const sen="this is an apple";
+ const arr=sen.split(" ");
+
+ const sen2=arr.join(" ");
+
+ ANSWER 8:
+
+ Function Expression: cannot call it before its definition line.
+ Function declaration: can be called before its line of definition.
+
+ Function declaration example:-
+  hello();
+
+  function hello(){
+    console.log("Hello World");
+  }
+
+ Function Expression:-
+ const speak=hello(){
+    console.log("hello world");
+ } ;
+
+
+ANSWER 9:
+
+Array: order list of values that is accessed through index.
+        USE: for sequential collection.
+
+Object: collection of key value pairs, accessed with key.
+    USE: for describing properties.
+
+ANSWER 10:
+Output:-
+5
+30
+true
+
+method used: includes(): it tells whether  a particular entity is present or not.
