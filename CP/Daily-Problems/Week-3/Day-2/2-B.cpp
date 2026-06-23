@@ -1,16 +1,14 @@
 class Solution {
-    bool solve(vector<int>& arr, int i) {
-        if (i == arr.size() - 1)
-            return true;
+  bool solve(vector<int> &arr, int i) {
+    if (i == arr.size() - 1)
+      return true;
 
-        if (arr[i] > arr[i + 1])
-            return false;
+    if (arr[i] > arr[i + 1])
+      return false;
 
-        return solve(arr, i + 1);
-    }
+    return solve(arr, i + 1);
+  }
 
 public:
-    bool isSorted(vector<int>& arr) {
-        return solve(arr, 0);
-    }
+  bool isSorted(vector<int> &arr) { return solve(arr, 0); }
 };
