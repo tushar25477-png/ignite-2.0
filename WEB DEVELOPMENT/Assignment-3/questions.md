@@ -85,7 +85,7 @@ Write a `createCounter()` function that returns an object with `increment`, `dec
 
 ## ⚠️ Note
 
-- Assignment to be submitted by June 28, 2026
+- Assignment to be submitted by June 29, 2026
 - Attempt this using only the concepts covered in this week's playlist — no external libraries.
 - Do not use ChatGPT or any AI tool. Write and test the code yourself.
 - Comment your code where logic might not be obvious.
