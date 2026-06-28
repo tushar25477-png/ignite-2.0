@@ -178,7 +178,8 @@ console.log(greet());
 
 ## Ques 9: Explain the difference between an array and an object in JavaScript. When would you use one over the other?
 
-**Explanation:** `Arrays` store same type of data with indexes while `Objects` store different type of data as key-value.
+**Explanation:** `Arrays` store same type of data with indexes while `Objects` store different type of data as key-value.  --> WRONG => JavaScript arrays can store different data types.
+CORRECT ANSWER=>Arrays store ordered collections of values accessed by numeric indexes. Objects store data as key-value pairs, where values are accessed using property names.
 
 ```js
 let fruits = ["Apple", "Banana", "Mango"];
