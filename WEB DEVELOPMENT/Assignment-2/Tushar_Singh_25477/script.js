@@ -32,6 +32,7 @@ function prime(a) {
       }
     }
   }
+  console.log("Prime");//this is missing in your code
 }
 
 // Question 12
@@ -71,6 +72,20 @@ function reverse(a) {
 // Part 3
 
 // sorry sir, i am not able to understand it
+//here is a solution for this, Tushar:
+function palindrome(str) {
+    let rev = "";//take an empty string which will store elements of string in reverse order
+
+    for (let i = str.length - 1; i >= 0; i--) {//traverse original string from back
+        rev += str[i];
+    }
+
+    if (rev === str) {//if reversed string is equal to original string then palindrome
+        console.log("Palindrome");
+    } else {
+        console.log("Not Palindrome");
+    }
+}
 
 // Question 14
 // Part i
@@ -139,6 +154,8 @@ function calculator(num1, num2, operator) {
       } else {
         console.log(num1 / num2);
       }
+      //you missed break here
+      break;
     default:
       console.log("Invalid operator");
   }
@@ -166,6 +183,8 @@ function greet(names) {
     greeting.push(`Hello, ${names[i]}!`);
   }
   console.log(greeting);
+  //according to question you should return an array
+  return greeting;
 }
 
 // Question 20
@@ -178,11 +197,29 @@ function findSecondLargest(arr) {
       a = arr[i];
     }
   }
-  const arr2 = arr.filter((a) => a !== a);
+  //const arr2 = arr.filter((a) => a !== a);//here filter condition will always evaluates to false, so arr2 becomes empty
+  //take another variable name like x
+  const arr2 = arr.filter((x) => x !== a);
   for (let i = 0; i < arr2.length; i++) {
     if (arr2[i] > b) {
       b = arr2[i];
     }
   }
   console.log(`The second largest element if ${b}`);
+}
+//you can do it in single loop also
+function findSecondLargest(arr) {
+    let largest = -Infinity;
+    let second = -Infinity;
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            second = largest;
+            largest = arr[i];
+        } else if (arr[i] > second && arr[i] !== largest) {
+            second = arr[i];
+        }
+    }
+
+    return second;
 }
