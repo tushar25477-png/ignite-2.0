@@ -151,7 +151,7 @@ console.log(sentence);
 ## Ques 8: What's the difference between a function declaration and a function expression? Give one example of each.
 
 **Explanation:** Function declarations are hoisted, but function expressions are not hoisted.
-
+*Review* => This is not completely true, Function declarations are fully hoisted and can be called before they appear in the code. Function expressions are assigned to variables, so only the variable declaration is hoisted. If declared with var, the variable is initially undefined; with let or const, accessing it before initialization results in a ReferenceError
 `Function declaration`
 
 ```js
