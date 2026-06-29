@@ -84,9 +84,13 @@ ANSWER 7:
   }
 
  Function Expression:-
- const speak=hello(){
+ const speak=hello(){//this is wrong
     console.log("hello world");
  } ;
+    //you cann write it as
+ const speak = function () {
+    console.log("Hello World");
+};
 
 
 ANSWER 9:
