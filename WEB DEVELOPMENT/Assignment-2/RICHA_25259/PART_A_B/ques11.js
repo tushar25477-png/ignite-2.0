@@ -21,7 +21,7 @@ let flag=true;
         flag=false;
     }
     if(flag){
-    for(let i=2;i<=n/2;i++){
+    for(let i=2;i<=n/2;i++){//add a case for negative numbers
         if(n%i==0){
             console.log("Not prime");
             flag=false;
