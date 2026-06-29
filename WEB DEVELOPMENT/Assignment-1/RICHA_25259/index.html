@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
     <style>
-        .topCoverImg img{
+        .topCoverImg img {
             height: 197px;
-  width: 100%;
-  position: relative;
-  z-index: 10;
-  border-radius: 16px;
+            width: 100%;
+            position: relative;
+            z-index: 10;
+            border-radius: 16px;
         }
-        .imgAbout{
+
+        .imgAbout {
             display: flex;
             flex-wrap: wrap;
         }
-        .profileImg img{
+
+        .profileImg img {
             margin: 0;
             padding: 0;
             height: 204px;
@@ -28,20 +31,21 @@
             left: 193px;
             top: -111px;
         }
-        .header{
-        display: flex;
-  left: 222px;
-  position: relative;
-  flex-direction: column;
-  gap: 10px;
-  align-items: end;
-  padding: 0 24px;
-    
-  margin-top: -19px;
-  padding-bottom: 4px;
-}
-        
-        .container{
+
+        .header {
+            display: flex;
+            left: 222px;
+            position: relative;
+            flex-direction: column;
+            gap: 10px;
+            align-items: end;
+            padding: 0 24px;
+
+            margin-top: -19px;
+            padding-bottom: 4px;
+        }
+
+        .container {
 
             display: flex;
             justify-content: space-around;
@@ -49,129 +53,138 @@
             flex-wrap: wrap;
             overflow: hidden;
             height: 100vh;
-        
+
         }
-        .social{
+
+        .social {
             flex-grow: 1;
-  background-color: mediumseagreen;
-  justify-content: center;
-  display: flex;
-             border-radius: 16px;
+            background-color: mediumseagreen;
+            justify-content: center;
+            display: flex;
+            border-radius: 16px;
         }
-        .about{
+
+        .about {
             flex-grow: 1;
-  background-color: lightseagreen;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  
-  border-radius: 16px;
+            background-color: lightseagreen;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            border-radius: 16px;
         }
-        .about h3{
-        
-           margin-bottom: 15px;
+
+        .about h3 {
+
+            margin-bottom: 15px;
             text-align: center;
         }
-        .tech{
+
+        .tech {
             flex-grow: 1;
             background-color: rgb(142, 152, 152);
             display: flex;
             flex-direction: column;
             gap: 20px;
             border-radius: 16px;
-            
+
         }
-        .tech h3{
-        
-           margin-bottom: 15px;
+
+        .tech h3 {
+
+            margin-bottom: 15px;
             text-align: center;
         }
-            .tech p{
-                margin: 10px 0;
-            }
+
+        .tech p {
+            margin: 10px 0;
+        }
+
         @media (max-width: 728px) {
 
-    .imgAbout {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+            .imgAbout {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
 
-    .profileImg img {
-        left: 0;
-        top: -60px;
-        height: 150px;
-    }
+            .profileImg img {
+                left: 0;
+                top: -60px;
+                height: 150px;
+            }
 
-    .header {
-        position: static;
-        left: 0;
-        align-items: center;
-        text-align: center;
-        margin-top: -50px;
-        padding: 0;
-    }
+            .header {
+                position: static;
+                left: 0;
+                align-items: center;
+                text-align: center;
+                margin-top: -50px;
+                padding: 0;
+            }
 
-    .container {
-        flex-direction: column;
-        height: auto;
-        gap: 15px;
-        padding: 10px;
-    }
+            .container {
+                flex-direction: column;
+                height: auto;
+                gap: 15px;
+                padding: 10px;
+            }
 
-    .social,
-    .about,
-    .tech {
-        width: 100%;
-        box-sizing: border-box;
-    }
+            .social,
+            .about,
+            .tech {
+                width: 100%;
+                box-sizing: border-box;
+            }
 
-    .social {
-        justify-content: center;
-        padding: 20px;
-    }
+            .social {
+                justify-content: center;
+                padding: 20px;
+            }
 
-    .about {
-        padding: 20px;
-        gap: 15px;
-    }
-   
-         .tech{
-        padding: 20px;
-    }
-    
+            .about {
+                padding: 20px;
+                gap: 15px;
+            }
 
-    .about li {
-        margin-left: 15px;
-    }
-}
+            .tech {
+                padding: 20px;
+            }
+
+
+            .about li {
+                margin-left: 15px;
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="topCoverImg">
         <img src="unsplashNatureImg.jpg" alt="">
     </div>
     <div class="imgAbout">
-    <div class="profileImg">
-        <img src="ProfileImage.jpeg" alt="">
+        <div class="profileImg">
+            <img src="ProfileImage.jpeg" alt="">
+        </div>
+        <span class="header">
+            <h1><b>Richa Singh</b></h1>
+            <h3><b>Computer Science Student</b></h3>
+        </span>
     </div>
-    <span class="header">
-        <h1><b>Richa Singh</b></h1>
-        <h3><b>Computer Science Student</b></h3>
-    </span></div>
     <div class="container">
 
         <div class="social">
-        <ul >
-            <li>
-                <a href="https://www.linkedin.com/in/richa-singh-5783b3383/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcTHCWQRISgmj8%2F9%2BjU5ZvA%3D%3D"
-                    target="_blank">💼linkedIn</a>
-            </li>
-            <li>
-                <a href="richasingh.cts2006@gmail.com" target="_blank">📧gmail</a>
-            </li>
-        </ul>
-    </div>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/richa-singh-5783b3383/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcTHCWQRISgmj8%2F9%2BjU5ZvA%3D%3D"
+                        target="_blank">💼linkedIn</a>
+                </li>
+                <li>
+                    <a href="richasingh.cts2006@gmail.com" target="_blank">📧gmail</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="about">
             <h3><b>About Me</b></h3>
@@ -179,15 +192,16 @@
             <li>Proficient in java, HTML, python and basic web development concepts.</li>
             <li>Currently learning Data Structures and Algorithms and Web development.</li>
         </div>
-        
-        
-    
-    
-    <div class="tech">
-        <h3><b>SKILLS</b></h3>
-        <p>Languages: Java , C, Python</p>
-        <p>Developers Tools: VS Code, GitHub</p>
-    </div>
+
+
+
+
+        <div class="tech">
+            <h3><b>SKILLS</b></h3>
+            <p>Languages: Java , C, Python</p>
+            <p>Developers Tools: VS Code, GitHub</p>
+        </div>
     </div>
 </body>
+
 </html>
